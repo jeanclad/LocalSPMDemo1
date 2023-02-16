@@ -1,0 +1,78 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Xcframework_spm",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TestSwift",
+        "printedName": "TestSwift",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TestSwift",
+                "printedName": "Xcframework_spm.TestSwift",
+                "usr": "s:15Xcframework_spm9TestSwiftC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15Xcframework_spm9TestSwiftCACycfc",
+            "mangledName": "$s15Xcframework_spm9TestSwiftCACycfc",
+            "moduleName": "Xcframework_spm",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "testM1",
+            "printedName": "testM1()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15Xcframework_spm9TestSwiftC6testM1yyFZ",
+            "mangledName": "$s15Xcframework_spm9TestSwiftC6testM1yyFZ",
+            "moduleName": "Xcframework_spm",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15Xcframework_spm9TestSwiftC",
+        "mangledName": "$s15Xcframework_spm9TestSwiftC",
+        "moduleName": "Xcframework_spm",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

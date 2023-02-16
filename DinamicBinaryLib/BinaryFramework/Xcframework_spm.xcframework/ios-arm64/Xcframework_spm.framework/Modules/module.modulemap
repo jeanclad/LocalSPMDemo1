@@ -1,0 +1,11 @@
+framework module Xcframework_spm {
+  umbrella header "Xcframework_spm.h"
+
+  export *
+  module * { export * }
+}
+
+module Xcframework_spm.Swift {
+  header "Xcframework_spm-Swift.h"
+  requires objc
+}
